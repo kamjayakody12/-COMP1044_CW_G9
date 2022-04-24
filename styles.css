@@ -1,0 +1,31 @@
+#output {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #output td, .output th {
+    border: 1px solid #ddd;
+    padding: 7.5px;
+  }
+  
+  #output tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #output tr:hover {background-color: #ddd;}
+  
+  #output th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #142c6b;
+    color: white;
+  }
+
+
+  body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(library.jpeg);
+    background-position: top center;
+    background-repeat: round;
+	  background-attachment: scroll;
+  }
+
